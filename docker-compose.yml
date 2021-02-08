@@ -1,0 +1,14 @@
+version: '3'
+
+services:
+  # Nginx Service
+  nginx:
+    image: nginx:alpine
+    container_name: cv_nginx
+    restart: unless-stopped
+    tty: true
+    ports:
+      - "8090:80"
+    volumes:
+      - ./:/application
+      - ./docker/nginx/nginx.conf:/etc/nginx/conf.d/default.conf

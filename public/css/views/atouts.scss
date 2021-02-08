@@ -1,0 +1,32 @@
+.section_4{
+
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+
+  height: 100%;
+  width: 100%;
+
+  .atouts {
+    display: flex;
+    flex-direction: column;
+
+    border: solid 5px red;
+    border-radius: 5px;
+
+    margin: 0.5em;
+    width: 47%;
+
+    h1 {
+      text-align: center;
+      font-size: 18px;
+      margin: 0.5em 0;
+    }
+
+    p {
+      margin-left: 1em;
+    }
+  }
+
+}
