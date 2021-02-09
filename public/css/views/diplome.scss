@@ -23,3 +23,11 @@
     }
   }
 }
+
+@media (max-width: $breakpoint-small-screen) {
+  .section_2 {
+    display: flex;
+    width: 135%;
+    margin-left: 1em;
+  }
+}

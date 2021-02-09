@@ -29,3 +29,11 @@
   }
 
 }
+
+@media (max-width: $breakpoint-small-screen) {
+  .section_5{
+    height: 150%;
+    width: 145%;
+    margin-left: 1em;
+  }
+}

@@ -15,3 +15,10 @@
   }
 
 }
+
+@media (max-width: $breakpoint-small-screen) {
+  .section_3 {
+    width: 150%;
+    margin: auto 0;
+  }
+}

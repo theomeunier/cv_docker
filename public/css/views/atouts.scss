@@ -30,3 +30,17 @@
   }
 
 }
+
+@media (max-width: $breakpoint-small-screen) {
+  .section_4{
+    width: 120%;
+    height: 130%;
+    margin: 1em 1em;
+
+    .atouts{
+      width: 110%;
+      margin: 0.5em;
+      padding-bottom: 0.5em;
+    }
+  }
+}
