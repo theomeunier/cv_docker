@@ -66,9 +66,9 @@ AJOUTER LA CLASS active sur le lien href="hash"
 RETIRER LA CLASS active sur les autres onglets
 AFFICHER / Masquer les contenus
 */
-var hashChange = function (e) {
-    var hash = window.location.hash
-    var a = document.querySelector('a[href="' + hash + '"]')
+let hashChange = function (e) {
+    let hash = window.location.hash
+    let a = document.querySelector('a[href="' + hash + '"]')
     if (a !== null && !a.classList.contains('active')) {
         afficherOnglet(a, e !== undefined)
     }
