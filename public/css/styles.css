@@ -181,6 +181,29 @@ span {
   font-size: 20px;
 }
 
+@media (max-width: 961px) {
+  .home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: auto;
+  }
+  .home img {
+    margin-top: 3em;
+  }
+  .home .onglet {
+    width: 100%;
+  }
+  .home .onglet .about h1 {
+    text-align: center;
+    margin-top: 1em;
+  }
+  .home .onglet .about p {
+    margin-left: 1.5em;
+    text-align: justify;
+  }
+}
 .section_4 {
   display: flex;
   flex-wrap: wrap;
@@ -403,24 +426,21 @@ span {
   margin-right: 6em;
 }
 
+.tabs {
+  display: flex;
+  width: 80%;
+}
 .tabs li {
-  float: left;
-  display: block;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 30%;
 }
-
-.tabs:after {
-  display: table;
-  content: " ";
-  clear: both;
-}
-
-.tabs a {
-  display: inline-block;
+.tabs li a {
+  display: flex;
   padding: 10px 15px;
   font-size: 20px;
   margin-right: 1em;
 }
-
 .tabs .active a {
   color: red;
   font-size: 20px;
@@ -435,12 +455,10 @@ span {
   width: 70%;
   height: 400px;
 }
-
-.tab-content {
+.tabs-content .tab-content {
   display: none;
 }
-
-.tab-content.active {
+.tabs-content .active {
   display: block;
 }
 
@@ -451,6 +469,24 @@ span {
 
 .fade.in {
   opacity: 1;
+}
+
+@media (max-width: 769px) {
+  .tabs {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: auto;
+    max-width: 100%;
+  }
+  .tabs li {
+    width: auto;
+    flex-direction: row;
+    margin: auto;
+  }
+  .tabs li a {
+    text-align: center;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */

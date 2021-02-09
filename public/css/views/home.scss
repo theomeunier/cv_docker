@@ -37,3 +37,33 @@
     }
   }
 }
+
+@media (max-width: $breakpoint-small-screen) {
+  .home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    width: 100%;
+    height: auto;
+
+    img {
+      margin-top: 3em;
+    }
+
+    .onglet {
+      width: 100%;
+      .about {
+        h1 {
+          text-align: center;
+          margin-top: 1em;
+        }
+
+        p {
+          margin-left: 1.5em;
+          text-align: justify;
+        }
+      }
+    }
+  }
+}
