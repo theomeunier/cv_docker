@@ -149,6 +149,27 @@ span {
   margin-top: 2em;
 }
 
+@media (max-width: 961px) {
+  .section_1 {
+    display: flex;
+  }
+  .section_1 div {
+    flex-direction: column;
+    justify-content: center;
+  }
+  .section_1 div .section_1_border {
+    width: 150%;
+  }
+  .section_1 div .section_1_border .border_left {
+    width: 90%;
+  }
+  .section_1 div .section_1_border .border_right {
+    width: 90%;
+  }
+  .section_1 div .section_1_border .border_right p {
+    margin-left: 1em;
+  }
+}
 .home {
   display: flex;
   align-items: center;
@@ -191,6 +212,7 @@ span {
   }
   .home img {
     margin-top: 3em;
+    height: 25%;
   }
   .home .onglet {
     width: 100%;
@@ -448,7 +470,7 @@ span {
 }
 
 .tabs-content {
-  position: relative;
+  display: flex;
   z-index: 3;
   padding-top: 3em;
   margin-bottom: 20px;
