@@ -124,7 +124,7 @@ span {
   display: flex;
   border: solid 3px red;
   border-radius: 6px;
-  width: 100%;
+  width: 110%;
   height: auto;
 }
 .section_1 div .section_1_border .border_left {
