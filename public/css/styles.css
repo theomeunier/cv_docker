@@ -491,6 +491,7 @@ span {
 }
 .tabs li a {
   display: flex;
+  justify-content: center;
   padding: 10px 15px;
   font-size: 20px;
   margin-right: 1em;
