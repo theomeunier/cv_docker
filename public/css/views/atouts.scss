@@ -76,3 +76,19 @@
     }
   }
 }
+
+@media (max-width: $breakpoint-phone) {
+  .section_4{
+    //margin: 1em 1em;
+
+    div {
+      width: 100%;
+      justify-content: center;
+
+      .atouts{
+        width: 230px;
+        margin-bottom: 1em;
+      }
+    }
+  }
+}

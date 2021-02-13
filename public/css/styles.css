@@ -289,6 +289,16 @@ span {
     padding-bottom: 0.5em;
   }
 }
+@media (max-width: 481px) {
+  .section_4 div {
+    width: 100%;
+    justify-content: center;
+  }
+  .section_4 div .atouts {
+    width: 230px;
+    margin-bottom: 1em;
+  }
+}
 .section_5 {
   height: 100%;
   display: flex;
