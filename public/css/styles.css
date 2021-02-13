@@ -275,6 +275,20 @@ span {
     padding-bottom: 0.5em;
   }
 }
+@media (max-width: 769px) {
+  .section_4 {
+    margin: 1em 1em;
+  }
+  .section_4 div {
+    width: 130%;
+    justify-content: center;
+  }
+  .section_4 div .atouts {
+    width: 230px;
+    margin: 0.5em;
+    padding-bottom: 0.5em;
+  }
+}
 .section_5 {
   height: 100%;
   display: flex;
@@ -543,7 +557,7 @@ span {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    width: auto;
+    width: 100%;
     max-width: 100%;
   }
   .tabs li {
